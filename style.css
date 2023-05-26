@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)), url(Indian\ Flag\ Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    border-width: 0;
+    text-shadow: 5px 5px 10px grey;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+.dhoni {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#About {
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+/**
+ * Tribute page for MS Dhoni Stylesheet 
+ * @author Prakhar Gupta | prakhargupta1980@gmail.com
+ */
+.about {
+    display: inline;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 10px grey;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+.factline {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.legend{
+    display: inline;
+    font-size: 73px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 10px grey;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+      opacity: 0.4;
+    }
+    50%{
+      opacity: 0.9;
+    }
+    100%{
+      opacity: 0.2;
+    }
+}
+.content {
+    width: 1200px;       
+    border: 2px solid black;      
+    padding: 5px;      
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;      
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: left;
+}
+
